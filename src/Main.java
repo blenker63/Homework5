@@ -98,6 +98,7 @@ public class Main {
                 System.out.println(monthNumber + "-й месяц принадлежит к сезону осень");
                 break;
             default:
+                if (monthNumber<1 || monthNumber >12)
                 System.out.println(monthNumber + "-й такого месяца не существует");
         }
     }
